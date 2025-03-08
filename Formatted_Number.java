@@ -16,5 +16,12 @@ public class Formatted_Number {
         System.out.printf("%-5d %c%n",7,'.');
 
         System.out.println('A' + 1);
+
+        for (int i = 'A'; i < 'Z'; i++) {
+            System.out.print((int) i+" ");
+        }
+        for (int i = 'a'; i < 'z' ; i++) {
+            System.out.print((int) i+" ");
+        }
     }
 }
