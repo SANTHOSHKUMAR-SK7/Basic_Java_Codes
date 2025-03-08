@@ -17,11 +17,21 @@ public class Formatted_Number {
 
         System.out.println('A' + 1);
 
+        for (int i = 0; i < 256 ; i++) {
+            System.out.print((char)i+" ");
+        }
+        System.out.println();
+
         for (int i = 'A'; i < 'Z'; i++) {
             System.out.print((int) i+" ");
         }
+        System.out.println();
+
         for (int i = 'a'; i < 'z' ; i++) {
             System.out.print((int) i+" ");
         }
+        System.out.println();
+
+
     }
 }
