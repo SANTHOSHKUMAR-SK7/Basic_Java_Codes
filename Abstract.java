@@ -19,7 +19,7 @@ abstract class demo{
     void add(){
         System.out.println("ADD FUNCTION FROM demo class");
     }
-    abstract void sub(); //ABSTRACT METHOD...We have to overaid thz method for upcoming created class
+    abstract void sub(); //ABSTRACT METHOD...We have to overide thz method for upcoming created class
 }
 
 class chk extends demo{
