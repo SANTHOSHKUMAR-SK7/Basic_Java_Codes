@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Reverse_Array {
     public static void main(String[] args) {
         String a = "Santho";
@@ -30,8 +28,8 @@ public class Reverse_Array {
 
 //        method 3
 
-        String reverse = new StringBuffer(a).reverse().toString();
-        System.out.println(reverse);
+//        String reverse = new StringBufferSB(a).reverse().toString();
+//        System.out.println(reverse);
     }
     }
 
